@@ -1,0 +1,38 @@
+{
+  "name": "ExperimentKit",
+  "version": "0.0.1",
+  "summary": "ExperimentKit",
+  "description": "ExperimentKit",
+  "homepage": "homepage",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "Kamil Khairullin": "k.khayrullin@innopolis.university"
+  },
+  "source": {
+    "git": "local",
+    "tag": "0.0.1"
+  },
+  "prefix_header_file": false,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": [
+    "ExperimentKit/**/*.{swift,h,m}"
+  ],
+  "dependencies": {
+    "Firebase/Core": [
+
+    ],
+    "Firebase/RemoteConfig": [
+
+    ]
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": [
+      "\"${PODS_ROOT}/Headers/Public/Firebase\""
+    ]
+  }
+}

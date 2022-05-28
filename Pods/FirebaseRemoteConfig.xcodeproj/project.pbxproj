@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EF5A6C66C5A08C109B7A5B11A9B69E /* FIRRemoteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F8640E92C3F32DD8A32078584EF01 /* FIRRemoteConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0B18FEDCAF773AF461CB83DE9CC81725 /* RCNConfigContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD4ECE6678349D2C7E6018563DCBC2 /* RCNConfigContent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1734379657AA2C93FE8E1AF8E5057363 /* FIRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EA572D24CD9D114D9DA66CD0DAE55B /* FIRLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A88D1B187C3E564FCDE7390F11B63E0 /* FIRInteropParameterNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C4A6B342AE2034FE138914B8905DCE /* FIRInteropParameterNames.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FBD63B1C20B55C7DEF7E41108397E89 /* RCNConfigValue_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DA9EE666800E18FF16B94A0ED33FC3 /* RCNConfigValue_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25D6F982D2700B080482C085CE64BFED /* RCNConfigSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AF3ED52BCA7171EDCBFBEFFCB51C96 /* RCNConfigSettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2971847520196CB17725A840A1223ECB /* RCNConstants3P.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC79A4F925BC357421EDE4392197DAC /* RCNConstants3P.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2AF128B0369C69A31F010CB3D892E758 /* FirebaseInstallationsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB96AB449B3218B3162D9F0673962FF /* FirebaseInstallationsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40510FF5C08D252A631CD0E354769589 /* RCNDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343D8B81008770963D5C9AC69C534CC /* RCNDevice.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		441178E76696C9AE17278187E53C694A /* FirebaseCoreInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DABEFB2B7172E113BF5B8547504479 /* FirebaseCoreInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		498A76E10024075135BC4C12567A9DF2 /* RCNUserDefaultsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE75301F28A6612E0DB70F84FCA91FC7 /* RCNUserDefaultsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4ACA9F86B81C8A3456F0F105B6393649 /* RCNConfigExperiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F82EBEB620E2BC957A834FBF5E06F /* RCNConfigExperiment.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4B6316333B782104E8ED411F428F60B4 /* FIRComponentContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E3022693E4CB73F68F32A592BCC355 /* FIRComponentContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E89CE93DBFB881D415A0E93B2D0574E /* FIRAnalyticsInterop.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A361503D03CDBF3FC2B60743ED5A86E /* FIRAnalyticsInterop.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5681AB7DD42B27462929D8D8BCB1B64B /* RCNConfigDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E97EEC66A7922F6101F2415DF5F250A2 /* RCNConfigDBManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56A29FE45E5159D288BC4BF22ED19A0E /* RCNDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = D1845B10CDFB3C6250BC8C776AFCDD47 /* RCNDevice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C5A266686621CD621F1D67D7CB53043 /* RCNConfigDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC460C75DE99E2DF0294F88D0BD35293 /* RCNConfigDBManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5EAFDBE90D6DEC3E0AE187528E52328F /* RCNPersonalization.m in Sources */ = {isa = PBXBuildFile; fileRef = B464C4DA8B2CA6151854A4B31EEAD8CB /* RCNPersonalization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C4158937CFBC49BB6E3A09E50E70414 /* RCNConfigDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2979C7D4A99DE4834D86DCBEA51CABC5 /* RCNConfigDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		742FF809CA4BBC6E6F64F6918698BFF3 /* FIRRemoteConfigComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E5F9C416D33E3CE4BEAF8D8BB3C35 /* FIRRemoteConfigComponent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77A1D010F33AC3E80D2D5D8E6BCB0DDF /* RCNConfigFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 07378B74318665F925644544F7C79BAC /* RCNConfigFetch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77BF68168856A2E656774C8A17315BBE /* FirebaseRemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC527EA0552E269B13A3F8964B1965 /* FirebaseRemoteConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8038DFDF138111C1913FFD9D1CB3B289 /* FIRHeartbeatLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EDBF15861ECF4A740DFF1B13BC5CDA /* FIRHeartbeatLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8531232F2A55F9597FFA31C0F1583FAF /* ABTExperimentPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1317C24DBF245F03C13052D3FE9E81 /* ABTExperimentPayload.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		878BA48D5937030BB4AE0D38AC3D1E72 /* RCNUserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C60803DDAEE97355F80AB92570F6666B /* RCNUserDefaultsManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E1378EE56025439BA8B727A63DADE07 /* FIRCoreDiagnosticsConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4891F2139240E6EA77F45605A80E93B6 /* FIRCoreDiagnosticsConnector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94258A7D6F8517289C50A47709EB6881 /* FIRDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9A9F8866474B905BA495FFD99457D9 /* FIRDependency.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95B7B9C658B077399DF3DFD853E601D3 /* FirebaseRemoteConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44942FEE4C59E38DB6115B7DFFFE7DFF /* FirebaseRemoteConfig-dummy.m */; };
+		96093B2DA9304A34DEF42C2DAE529164 /* RCNConfigExperiment.h in Headers */ = {isa = PBXBuildFile; fileRef = F283264D299DA2B5E7C82553DC0F19A2 /* RCNConfigExperiment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D19F529C6878B956A0628C2EF814042 /* FIRLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EAA0F8C4F6330B5D3C7C62D6896645 /* FIRLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F6C54AD27A3DE0646DB91353951F7B7 /* RCNPersonalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBFA40A95B5897A27F00DA68A7C00D3 /* RCNPersonalization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A84C83C7D31E7D03C08E0D2934FA69E5 /* FIRRemoteConfig_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 916BC9556F7F2DA0E843375D809091DB /* FIRRemoteConfig_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE840189BE7F48A9DD1D7DB3D3AD57CF /* FIRRemoteConfigComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 750DE377CF9ED92B050F30143488E7E9 /* FIRRemoteConfigComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B03DBB059A566DE98CF8FCA18E67765F /* FirebaseABTestingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 619E2796A1C956F83AD53A076C779549 /* FirebaseABTestingInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B30D0B55AD7D2A20E02CDDAA8DE7B469 /* FirebaseRemoteConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F366E7B09682FE29C4E2438D01D3EDA1 /* FirebaseRemoteConfig-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBFF0483AB1CD07B0BC19151EB0C3E7C /* RCNConfigContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0107E603A4045B48E8890C30AEDF633B /* RCNConfigContent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9914D757709E74A2279457638B43401 /* FIRRemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E28551DAE8130E40A272CC91B8E2926F /* FIRRemoteConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD56BD5BC614AFD8C0D42E32108F7A64 /* FIRComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8B33335E55A0ABC1C3F61CF9122C3B /* FIRComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D257F10C1A55E77349C9C391E5E3F163 /* RCNConfigFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 683DCCAEDD6E5CD98D75EB03B405D56B /* RCNConfigFetch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D474897AFF717E631F5A243C8403AA4B /* FIRInteropEventNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 235075652A22BAFA6216C1C86840F0B9 /* FIRInteropEventNames.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D60717288E2ADD9B302F2D220961692D /* FIRComponentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E105FA5C69599E22EF70A2EB7A8A6EC /* FIRComponentType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D68B8153EE3399C9726C9A879D4AC553 /* RCNConfigConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 210AF5FB5AB0F5AB528E88B9D42045AF /* RCNConfigConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D711224F83EEEC85AC268688FD4B5253 /* FIROptionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F146E00F031688B3D36CA85EDBC28373 /* FIROptionsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D91D1E7C6CACD31918387BCB2CBE18E8 /* RCNConfigSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FC39606E95D2A3B93FBE76EDE40F3FC6 /* RCNConfigSettings.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E3059941315AEFFE59685530BEE12789 /* FIRHeartbeatInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 95411F79F7F9AA4254A2A2D71B8C9BAB /* FIRHeartbeatInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E89B024AB7B69DEA49DC6BF25FEA0A56 /* FIRAppInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 024F0D2FDE8E1F7A48A7FF502F4A4328 /* FIRAppInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC52892CB47423612A24EDB04B1C7129 /* FIRAnalyticsInteropListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 598BB6A91BA2552E98A80FBD7B746E99 /* FIRAnalyticsInteropListener.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE26A9CFEB90DC3B335D1EF80623DD26 /* FIRConfigValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 119168C4B8EEFBC5C73CCCAF19C7EDB9 /* FIRConfigValue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5EF19F1450659E85C0CB2A8398E1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36914706E74538B3C384811FE7BE84A1 /* GoogleUtilities */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B861CBFC18436AFD9A3703F00CEEC4;
+			remoteInfo = GoogleUtilities;
+		};
+		5BB795E4D8FF49AFC82321CBE776465A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 343CFE3B5D5A47CB505B4352730531C3 /* FirebaseCore */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD5DE1E00ED67A59118DB4A3CD5F288;
+			remoteInfo = FirebaseCore;
+		};
+		820DD85FF3459642995E6A783583ABAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E6A929DE342BA913675577CADEA8A94 /* FirebaseInstallations */;
+			proxyType = 1;
+			remoteGlobalIDString = 5141209CC29AF79FFB5703E3712E76EF;
+			remoteInfo = FirebaseInstallations;
+		};
+		886ED6203ADEAD44E9D2434E46FEB053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9988FCD634F348AD681D1914D6F6DE1 /* FirebaseABTesting */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF65024CB3BD3ED54307A1F8F998C2F;
+			remoteInfo = FirebaseABTesting;
+		};
+		8EBFB2502841992200012BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9988FCD634F348AD681D1914D6F6DE1 /* FirebaseABTesting */;
+			proxyType = 2;
+			remoteGlobalIDString = BA8F3B4D5C331E1B930ABAF37E6A004D;
+			remoteInfo = FirebaseABTesting;
+		};
+		8EBFB2522841992200012BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 343CFE3B5D5A47CB505B4352730531C3 /* FirebaseCore */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D7D61444D0DBB1E8F18F68100D8A4DC;
+			remoteInfo = FirebaseCore;
+		};
+		8EBFB2542841992200012BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E6A929DE342BA913675577CADEA8A94 /* FirebaseInstallations */;
+			proxyType = 2;
+			remoteGlobalIDString = D9249C955CC05563E822357210C72643;
+			remoteInfo = FirebaseInstallations;
+		};
+		8EBFB2562841992200012BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36914706E74538B3C384811FE7BE84A1 /* GoogleUtilities */;
+			proxyType = 2;
+			remoteGlobalIDString = 5270700AFC27107B9B8D07E62CF1CFFB;
+			remoteInfo = GoogleUtilities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0107E603A4045B48E8890C30AEDF633B /* RCNConfigContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigContent.h; path = FirebaseRemoteConfig/Sources/RCNConfigContent.h; sourceTree = "<group>"; };
+		024F0D2FDE8E1F7A48A7FF502F4A4328 /* FIRAppInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAppInternal.h; path = FirebaseCore/Extension/FIRAppInternal.h; sourceTree = "<group>"; };
+		07378B74318665F925644544F7C79BAC /* RCNConfigFetch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNConfigFetch.m; path = FirebaseRemoteConfig/Sources/RCNConfigFetch.m; sourceTree = "<group>"; };
+		09BD4ECE6678349D2C7E6018563DCBC2 /* RCNConfigContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNConfigContent.m; path = FirebaseRemoteConfig/Sources/RCNConfigContent.m; sourceTree = "<group>"; };
+		0B488B1BB43AE299014C0D42CD5ED00F /* FirebaseRemoteConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseRemoteConfig.release.xcconfig; sourceTree = "<group>"; };
+		0FBFA40A95B5897A27F00DA68A7C00D3 /* RCNPersonalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNPersonalization.h; path = FirebaseRemoteConfig/Sources/RCNPersonalization.h; sourceTree = "<group>"; };
+		119168C4B8EEFBC5C73CCCAF19C7EDB9 /* FIRConfigValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRConfigValue.m; path = FirebaseRemoteConfig/Sources/FIRConfigValue.m; sourceTree = "<group>"; };
+		1398E32C582E91E8A3D24249AC8AFC25 /* libFirebaseRemoteConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirebaseRemoteConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		210AF5FB5AB0F5AB528E88B9D42045AF /* RCNConfigConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigConstants.h; path = FirebaseRemoteConfig/Sources/RCNConfigConstants.h; sourceTree = "<group>"; };
+		235075652A22BAFA6216C1C86840F0B9 /* FIRInteropEventNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInteropEventNames.h; path = Interop/Analytics/Public/FIRInteropEventNames.h; sourceTree = "<group>"; };
+		2979C7D4A99DE4834D86DCBEA51CABC5 /* RCNConfigDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigDefines.h; path = FirebaseRemoteConfig/Sources/RCNConfigDefines.h; sourceTree = "<group>"; };
+		2E6A929DE342BA913675577CADEA8A94 /* FirebaseInstallations */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseInstallations; path = FirebaseInstallations.xcodeproj; sourceTree = "<group>"; };
+		2E8B33335E55A0ABC1C3F61CF9122C3B /* FIRComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponent.h; path = FirebaseCore/Extension/FIRComponent.h; sourceTree = "<group>"; };
+		324E5F9C416D33E3CE4BEAF8D8BB3C35 /* FIRRemoteConfigComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRRemoteConfigComponent.m; path = FirebaseRemoteConfig/Sources/FIRRemoteConfigComponent.m; sourceTree = "<group>"; };
+		343CFE3B5D5A47CB505B4352730531C3 /* FirebaseCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseCore; path = FirebaseCore.xcodeproj; sourceTree = "<group>"; };
+		36914706E74538B3C384811FE7BE84A1 /* GoogleUtilities */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoogleUtilities; path = GoogleUtilities.xcodeproj; sourceTree = "<group>"; };
+		39C4A6B342AE2034FE138914B8905DCE /* FIRInteropParameterNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInteropParameterNames.h; path = Interop/Analytics/Public/FIRInteropParameterNames.h; sourceTree = "<group>"; };
+		3E7BE1A4F9531B7564CCA14E095FCFE7 /* FirebaseRemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseRemoteConfig.debug.xcconfig; sourceTree = "<group>"; };
+		3FC79A4F925BC357421EDE4392197DAC /* RCNConstants3P.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNConstants3P.m; path = FirebaseRemoteConfig/Sources/RCNConstants3P.m; sourceTree = "<group>"; };
+		43EAA0F8C4F6330B5D3C7C62D6896645 /* FIRLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLibrary.h; path = FirebaseCore/Extension/FIRLibrary.h; sourceTree = "<group>"; };
+		441F82EBEB620E2BC957A834FBF5E06F /* RCNConfigExperiment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNConfigExperiment.m; path = FirebaseRemoteConfig/Sources/RCNConfigExperiment.m; sourceTree = "<group>"; };
+		44942FEE4C59E38DB6115B7DFFFE7DFF /* FirebaseRemoteConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FirebaseRemoteConfig-dummy.m"; sourceTree = "<group>"; };
+		4891F2139240E6EA77F45605A80E93B6 /* FIRCoreDiagnosticsConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCoreDiagnosticsConnector.h; path = FirebaseCore/Extension/FIRCoreDiagnosticsConnector.h; sourceTree = "<group>"; };
+		598BB6A91BA2552E98A80FBD7B746E99 /* FIRAnalyticsInteropListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAnalyticsInteropListener.h; path = Interop/Analytics/Public/FIRAnalyticsInteropListener.h; sourceTree = "<group>"; };
+		619E2796A1C956F83AD53A076C779549 /* FirebaseABTestingInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseABTestingInternal.h; path = FirebaseABTesting/Sources/Private/FirebaseABTestingInternal.h; sourceTree = "<group>"; };
+		6343D8B81008770963D5C9AC69C534CC /* RCNDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNDevice.m; path = FirebaseRemoteConfig/Sources/RCNDevice.m; sourceTree = "<group>"; };
+		67DA9EE666800E18FF16B94A0ED33FC3 /* RCNConfigValue_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigValue_Internal.h; path = FirebaseRemoteConfig/Sources/RCNConfigValue_Internal.h; sourceTree = "<group>"; };
+		683DCCAEDD6E5CD98D75EB03B405D56B /* RCNConfigFetch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigFetch.h; path = FirebaseRemoteConfig/Sources/Private/RCNConfigFetch.h; sourceTree = "<group>"; };
+		6D9F8640E92C3F32DD8A32078584EF01 /* FIRRemoteConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRRemoteConfig.m; path = FirebaseRemoteConfig/Sources/FIRRemoteConfig.m; sourceTree = "<group>"; };
+		6E105FA5C69599E22EF70A2EB7A8A6EC /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = FirebaseCore/Extension/FIRComponentType.h; sourceTree = "<group>"; };
+		750DE377CF9ED92B050F30143488E7E9 /* FIRRemoteConfigComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRRemoteConfigComponent.h; path = FirebaseRemoteConfig/Sources/FIRRemoteConfigComponent.h; sourceTree = "<group>"; };
+		7A361503D03CDBF3FC2B60743ED5A86E /* FIRAnalyticsInterop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAnalyticsInterop.h; path = Interop/Analytics/Public/FIRAnalyticsInterop.h; sourceTree = "<group>"; };
+		7F9A9F8866474B905BA495FFD99457D9 /* FIRDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDependency.h; path = FirebaseCore/Extension/FIRDependency.h; sourceTree = "<group>"; };
+		916BC9556F7F2DA0E843375D809091DB /* FIRRemoteConfig_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRRemoteConfig_Private.h; path = FirebaseRemoteConfig/Sources/Private/FIRRemoteConfig_Private.h; sourceTree = "<group>"; };
+		95411F79F7F9AA4254A2A2D71B8C9BAB /* FIRHeartbeatInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRHeartbeatInfo.h; path = FirebaseCore/Extension/FIRHeartbeatInfo.h; sourceTree = "<group>"; };
+		A1DABEFB2B7172E113BF5B8547504479 /* FirebaseCoreInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseCoreInternal.h; path = FirebaseCore/Extension/FirebaseCoreInternal.h; sourceTree = "<group>"; };
+		A9988FCD634F348AD681D1914D6F6DE1 /* FirebaseABTesting */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseABTesting; path = FirebaseABTesting.xcodeproj; sourceTree = "<group>"; };
+		AC460C75DE99E2DF0294F88D0BD35293 /* RCNConfigDBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNConfigDBManager.m; path = FirebaseRemoteConfig/Sources/RCNConfigDBManager.m; sourceTree = "<group>"; };
+		B464C4DA8B2CA6151854A4B31EEAD8CB /* RCNPersonalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNPersonalization.m; path = FirebaseRemoteConfig/Sources/RCNPersonalization.m; sourceTree = "<group>"; };
+		B4AF3ED52BCA7171EDCBFBEFFCB51C96 /* RCNConfigSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigSettings.h; path = FirebaseRemoteConfig/Sources/Private/RCNConfigSettings.h; sourceTree = "<group>"; };
+		BE75301F28A6612E0DB70F84FCA91FC7 /* RCNUserDefaultsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNUserDefaultsManager.h; path = FirebaseRemoteConfig/Sources/RCNUserDefaultsManager.h; sourceTree = "<group>"; };
+		C3E3022693E4CB73F68F32A592BCC355 /* FIRComponentContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainer.h; path = FirebaseCore/Extension/FIRComponentContainer.h; sourceTree = "<group>"; };
+		C60803DDAEE97355F80AB92570F6666B /* RCNUserDefaultsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNUserDefaultsManager.m; path = FirebaseRemoteConfig/Sources/RCNUserDefaultsManager.m; sourceTree = "<group>"; };
+		C7EA572D24CD9D114D9DA66CD0DAE55B /* FIRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLogger.h; path = FirebaseCore/Extension/FIRLogger.h; sourceTree = "<group>"; };
+		D0EDBF15861ECF4A740DFF1B13BC5CDA /* FIRHeartbeatLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRHeartbeatLogger.h; path = FirebaseCore/Extension/FIRHeartbeatLogger.h; sourceTree = "<group>"; };
+		D1845B10CDFB3C6250BC8C776AFCDD47 /* RCNDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNDevice.h; path = FirebaseRemoteConfig/Sources/RCNDevice.h; sourceTree = "<group>"; };
+		E22D91E0E916C02090B9A7514EE0AEAB /* FirebaseRemoteConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FirebaseRemoteConfig.modulemap; sourceTree = "<group>"; };
+		E28551DAE8130E40A272CC91B8E2926F /* FIRRemoteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRRemoteConfig.h; path = FirebaseRemoteConfig/Sources/Public/FirebaseRemoteConfig/FIRRemoteConfig.h; sourceTree = "<group>"; };
+		E4CC527EA0552E269B13A3F8964B1965 /* FirebaseRemoteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseRemoteConfig.h; path = FirebaseRemoteConfig/Sources/Public/FirebaseRemoteConfig/FirebaseRemoteConfig.h; sourceTree = "<group>"; };
+		E97EEC66A7922F6101F2415DF5F250A2 /* RCNConfigDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigDBManager.h; path = FirebaseRemoteConfig/Sources/RCNConfigDBManager.h; sourceTree = "<group>"; };
+		EEB96AB449B3218B3162D9F0673962FF /* FirebaseInstallationsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseInstallationsInternal.h; path = FirebaseInstallations/Source/Library/Private/FirebaseInstallationsInternal.h; sourceTree = "<group>"; };
+		EF1317C24DBF245F03C13052D3FE9E81 /* ABTExperimentPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTExperimentPayload.h; path = FirebaseABTesting/Sources/Private/ABTExperimentPayload.h; sourceTree = "<group>"; };
+		F146E00F031688B3D36CA85EDBC28373 /* FIROptionsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptionsInternal.h; path = FirebaseCore/Extension/FIROptionsInternal.h; sourceTree = "<group>"; };
+		F283264D299DA2B5E7C82553DC0F19A2 /* RCNConfigExperiment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCNConfigExperiment.h; path = FirebaseRemoteConfig/Sources/RCNConfigExperiment.h; sourceTree = "<group>"; };
+		F366E7B09682FE29C4E2438D01D3EDA1 /* FirebaseRemoteConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseRemoteConfig-umbrella.h"; sourceTree = "<group>"; };
+		FC39606E95D2A3B93FBE76EDE40F3FC6 /* RCNConfigSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCNConfigSettings.m; path = FirebaseRemoteConfig/Sources/RCNConfigSettings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C57B4324136FF760047209F874EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143AA15649C0F842F72BD881A15E8C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D93947942B45AAD0EC2FC9C9A7507B8 = {
+			isa = PBXGroup;
+			children = (
+				FCFF0417710D4637A547ACDF4388505A /* Dependencies */,
+				A43E85C2C492D792D27CD4CA38827EDC /* FirebaseRemoteConfig */,
+				143AA15649C0F842F72BD881A15E8C85 /* Frameworks */,
+				ACB570737AD1BF9BBE657A55DE054884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBFB1D82841950100012BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBFB2552841992200012BCF /* libFirebaseInstallations.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBFB1DA2841950100012BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBFB2572841992200012BCF /* libGoogleUtilities.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBFB1DC2841950100012BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBFB2532841992200012BCF /* libFirebaseCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBFB1DE2841950100012BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBFB2512841992200012BCF /* FirebaseABTesting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43E85C2C492D792D27CD4CA38827EDC /* FirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				EF1317C24DBF245F03C13052D3FE9E81 /* ABTExperimentPayload.h */,
+				7A361503D03CDBF3FC2B60743ED5A86E /* FIRAnalyticsInterop.h */,
+				598BB6A91BA2552E98A80FBD7B746E99 /* FIRAnalyticsInteropListener.h */,
+				024F0D2FDE8E1F7A48A7FF502F4A4328 /* FIRAppInternal.h */,
+				2E8B33335E55A0ABC1C3F61CF9122C3B /* FIRComponent.h */,
+				C3E3022693E4CB73F68F32A592BCC355 /* FIRComponentContainer.h */,
+				6E105FA5C69599E22EF70A2EB7A8A6EC /* FIRComponentType.h */,
+				119168C4B8EEFBC5C73CCCAF19C7EDB9 /* FIRConfigValue.m */,
+				4891F2139240E6EA77F45605A80E93B6 /* FIRCoreDiagnosticsConnector.h */,
+				7F9A9F8866474B905BA495FFD99457D9 /* FIRDependency.h */,
+				619E2796A1C956F83AD53A076C779549 /* FirebaseABTestingInternal.h */,
+				A1DABEFB2B7172E113BF5B8547504479 /* FirebaseCoreInternal.h */,
+				EEB96AB449B3218B3162D9F0673962FF /* FirebaseInstallationsInternal.h */,
+				E4CC527EA0552E269B13A3F8964B1965 /* FirebaseRemoteConfig.h */,
+				95411F79F7F9AA4254A2A2D71B8C9BAB /* FIRHeartbeatInfo.h */,
+				D0EDBF15861ECF4A740DFF1B13BC5CDA /* FIRHeartbeatLogger.h */,
+				235075652A22BAFA6216C1C86840F0B9 /* FIRInteropEventNames.h */,
+				39C4A6B342AE2034FE138914B8905DCE /* FIRInteropParameterNames.h */,
+				43EAA0F8C4F6330B5D3C7C62D6896645 /* FIRLibrary.h */,
+				C7EA572D24CD9D114D9DA66CD0DAE55B /* FIRLogger.h */,
+				F146E00F031688B3D36CA85EDBC28373 /* FIROptionsInternal.h */,
+				E28551DAE8130E40A272CC91B8E2926F /* FIRRemoteConfig.h */,
+				6D9F8640E92C3F32DD8A32078584EF01 /* FIRRemoteConfig.m */,
+				916BC9556F7F2DA0E843375D809091DB /* FIRRemoteConfig_Private.h */,
+				750DE377CF9ED92B050F30143488E7E9 /* FIRRemoteConfigComponent.h */,
+				324E5F9C416D33E3CE4BEAF8D8BB3C35 /* FIRRemoteConfigComponent.m */,
+				210AF5FB5AB0F5AB528E88B9D42045AF /* RCNConfigConstants.h */,
+				0107E603A4045B48E8890C30AEDF633B /* RCNConfigContent.h */,
+				09BD4ECE6678349D2C7E6018563DCBC2 /* RCNConfigContent.m */,
+				E97EEC66A7922F6101F2415DF5F250A2 /* RCNConfigDBManager.h */,
+				AC460C75DE99E2DF0294F88D0BD35293 /* RCNConfigDBManager.m */,
+				2979C7D4A99DE4834D86DCBEA51CABC5 /* RCNConfigDefines.h */,
+				F283264D299DA2B5E7C82553DC0F19A2 /* RCNConfigExperiment.h */,
+				441F82EBEB620E2BC957A834FBF5E06F /* RCNConfigExperiment.m */,
+				683DCCAEDD6E5CD98D75EB03B405D56B /* RCNConfigFetch.h */,
+				07378B74318665F925644544F7C79BAC /* RCNConfigFetch.m */,
+				B4AF3ED52BCA7171EDCBFBEFFCB51C96 /* RCNConfigSettings.h */,
+				FC39606E95D2A3B93FBE76EDE40F3FC6 /* RCNConfigSettings.m */,
+				67DA9EE666800E18FF16B94A0ED33FC3 /* RCNConfigValue_Internal.h */,
+				3FC79A4F925BC357421EDE4392197DAC /* RCNConstants3P.m */,
+				D1845B10CDFB3C6250BC8C776AFCDD47 /* RCNDevice.h */,
+				6343D8B81008770963D5C9AC69C534CC /* RCNDevice.m */,
+				0FBFA40A95B5897A27F00DA68A7C00D3 /* RCNPersonalization.h */,
+				B464C4DA8B2CA6151854A4B31EEAD8CB /* RCNPersonalization.m */,
+				BE75301F28A6612E0DB70F84FCA91FC7 /* RCNUserDefaultsManager.h */,
+				C60803DDAEE97355F80AB92570F6666B /* RCNUserDefaultsManager.m */,
+				FF1808907BEFC2658785519192976922 /* Support Files */,
+			);
+			path = FirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		ACB570737AD1BF9BBE657A55DE054884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1398E32C582E91E8A3D24249AC8AFC25 /* libFirebaseRemoteConfig.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFF0417710D4637A547ACDF4388505A /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				A9988FCD634F348AD681D1914D6F6DE1 /* FirebaseABTesting */,
+				343CFE3B5D5A47CB505B4352730531C3 /* FirebaseCore */,
+				2E6A929DE342BA913675577CADEA8A94 /* FirebaseInstallations */,
+				36914706E74538B3C384811FE7BE84A1 /* GoogleUtilities */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		FF1808907BEFC2658785519192976922 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E22D91E0E916C02090B9A7514EE0AEAB /* FirebaseRemoteConfig.modulemap */,
+				44942FEE4C59E38DB6115B7DFFFE7DFF /* FirebaseRemoteConfig-dummy.m */,
+				F366E7B09682FE29C4E2438D01D3EDA1 /* FirebaseRemoteConfig-umbrella.h */,
+				3E7BE1A4F9531B7564CCA14E095FCFE7 /* FirebaseRemoteConfig.debug.xcconfig */,
+				0B488B1BB43AE299014C0D42CD5ED00F /* FirebaseRemoteConfig.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FirebaseRemoteConfig";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F330DE50FBB4A3B86C5B9FCF463526BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8531232F2A55F9597FFA31C0F1583FAF /* ABTExperimentPayload.h in Headers */,
+				4E89CE93DBFB881D415A0E93B2D0574E /* FIRAnalyticsInterop.h in Headers */,
+				FC52892CB47423612A24EDB04B1C7129 /* FIRAnalyticsInteropListener.h in Headers */,
+				E89B024AB7B69DEA49DC6BF25FEA0A56 /* FIRAppInternal.h in Headers */,
+				CD56BD5BC614AFD8C0D42E32108F7A64 /* FIRComponent.h in Headers */,
+				4B6316333B782104E8ED411F428F60B4 /* FIRComponentContainer.h in Headers */,
+				D60717288E2ADD9B302F2D220961692D /* FIRComponentType.h in Headers */,
+				8E1378EE56025439BA8B727A63DADE07 /* FIRCoreDiagnosticsConnector.h in Headers */,
+				94258A7D6F8517289C50A47709EB6881 /* FIRDependency.h in Headers */,
+				B03DBB059A566DE98CF8FCA18E67765F /* FirebaseABTestingInternal.h in Headers */,
+				441178E76696C9AE17278187E53C694A /* FirebaseCoreInternal.h in Headers */,
+				2AF128B0369C69A31F010CB3D892E758 /* FirebaseInstallationsInternal.h in Headers */,
+				77BF68168856A2E656774C8A17315BBE /* FirebaseRemoteConfig.h in Headers */,
+				B30D0B55AD7D2A20E02CDDAA8DE7B469 /* FirebaseRemoteConfig-umbrella.h in Headers */,
+				E3059941315AEFFE59685530BEE12789 /* FIRHeartbeatInfo.h in Headers */,
+				8038DFDF138111C1913FFD9D1CB3B289 /* FIRHeartbeatLogger.h in Headers */,
+				D474897AFF717E631F5A243C8403AA4B /* FIRInteropEventNames.h in Headers */,
+				1A88D1B187C3E564FCDE7390F11B63E0 /* FIRInteropParameterNames.h in Headers */,
+				9D19F529C6878B956A0628C2EF814042 /* FIRLibrary.h in Headers */,
+				1734379657AA2C93FE8E1AF8E5057363 /* FIRLogger.h in Headers */,
+				D711224F83EEEC85AC268688FD4B5253 /* FIROptionsInternal.h in Headers */,
+				C9914D757709E74A2279457638B43401 /* FIRRemoteConfig.h in Headers */,
+				A84C83C7D31E7D03C08E0D2934FA69E5 /* FIRRemoteConfig_Private.h in Headers */,
+				AE840189BE7F48A9DD1D7DB3D3AD57CF /* FIRRemoteConfigComponent.h in Headers */,
+				D68B8153EE3399C9726C9A879D4AC553 /* RCNConfigConstants.h in Headers */,
+				BBFF0483AB1CD07B0BC19151EB0C3E7C /* RCNConfigContent.h in Headers */,
+				5681AB7DD42B27462929D8D8BCB1B64B /* RCNConfigDBManager.h in Headers */,
+				6C4158937CFBC49BB6E3A09E50E70414 /* RCNConfigDefines.h in Headers */,
+				96093B2DA9304A34DEF42C2DAE529164 /* RCNConfigExperiment.h in Headers */,
+				D257F10C1A55E77349C9C391E5E3F163 /* RCNConfigFetch.h in Headers */,
+				25D6F982D2700B080482C085CE64BFED /* RCNConfigSettings.h in Headers */,
+				1FBD63B1C20B55C7DEF7E41108397E89 /* RCNConfigValue_Internal.h in Headers */,
+				56A29FE45E5159D288BC4BF22ED19A0E /* RCNDevice.h in Headers */,
+				9F6C54AD27A3DE0646DB91353951F7B7 /* RCNPersonalization.h in Headers */,
+				498A76E10024075135BC4C12567A9DF2 /* RCNUserDefaultsManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D7F2905E12DBC40B56842DA56E971E0C /* FirebaseRemoteConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC29C8D276E0EAC85F987C7567970B9 /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfig" */;
+			buildPhases = (
+				F330DE50FBB4A3B86C5B9FCF463526BB /* Headers */,
+				5669E29A3D12F972D47D3FD24DD1A0B2 /* Sources */,
+				14C57B4324136FF760047209F874EB96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EAC40D547689AC92DBC8A26F9DEF643 /* PBXTargetDependency */,
+				120C8BAA3B7C6CFFEB4D66862EF75D4F /* PBXTargetDependency */,
+				8981436D7A6D76563F49AD382F4CFF50 /* PBXTargetDependency */,
+				4A11D619BAF3DA48D564E5683DDC40D0 /* PBXTargetDependency */,
+			);
+			name = FirebaseRemoteConfig;
+			productName = FirebaseRemoteConfig;
+			productReference = 1398E32C582E91E8A3D24249AC8AFC25 /* libFirebaseRemoteConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E4A644B39D75B6BFAC633F13B15702F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 0710A74E0557C83AF79D240C3D13B1A8 /* Build configuration list for PBXProject "FirebaseRemoteConfig" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1D93947942B45AAD0EC2FC9C9A7507B8;
+			productRefGroup = ACB570737AD1BF9BBE657A55DE054884 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8EBFB1DE2841950100012BCF /* Products */;
+					ProjectRef = A9988FCD634F348AD681D1914D6F6DE1 /* FirebaseABTesting */;
+				},
+				{
+					ProductGroup = 8EBFB1DC2841950100012BCF /* Products */;
+					ProjectRef = 343CFE3B5D5A47CB505B4352730531C3 /* FirebaseCore */;
+				},
+				{
+					ProductGroup = 8EBFB1D82841950100012BCF /* Products */;
+					ProjectRef = 2E6A929DE342BA913675577CADEA8A94 /* FirebaseInstallations */;
+				},
+				{
+					ProductGroup = 8EBFB1DA2841950100012BCF /* Products */;
+					ProjectRef = 36914706E74538B3C384811FE7BE84A1 /* GoogleUtilities */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D7F2905E12DBC40B56842DA56E971E0C /* FirebaseRemoteConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8EBFB2512841992200012BCF /* FirebaseABTesting */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = FirebaseABTesting;
+			path = libFirebaseABTesting.a;
+			remoteRef = 8EBFB2502841992200012BCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8EBFB2532841992200012BCF /* libFirebaseCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebaseCore.a;
+			remoteRef = 8EBFB2522841992200012BCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8EBFB2552841992200012BCF /* libFirebaseInstallations.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebaseInstallations.a;
+			remoteRef = 8EBFB2542841992200012BCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8EBFB2572841992200012BCF /* libGoogleUtilities.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGoogleUtilities.a;
+			remoteRef = 8EBFB2562841992200012BCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5669E29A3D12F972D47D3FD24DD1A0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE26A9CFEB90DC3B335D1EF80623DD26 /* FIRConfigValue.m in Sources */,
+				95B7B9C658B077399DF3DFD853E601D3 /* FirebaseRemoteConfig-dummy.m in Sources */,
+				08EF5A6C66C5A08C109B7A5B11A9B69E /* FIRRemoteConfig.m in Sources */,
+				742FF809CA4BBC6E6F64F6918698BFF3 /* FIRRemoteConfigComponent.m in Sources */,
+				0B18FEDCAF773AF461CB83DE9CC81725 /* RCNConfigContent.m in Sources */,
+				5C5A266686621CD621F1D67D7CB53043 /* RCNConfigDBManager.m in Sources */,
+				4ACA9F86B81C8A3456F0F105B6393649 /* RCNConfigExperiment.m in Sources */,
+				77A1D010F33AC3E80D2D5D8E6BCB0DDF /* RCNConfigFetch.m in Sources */,
+				D91D1E7C6CACD31918387BCB2CBE18E8 /* RCNConfigSettings.m in Sources */,
+				2971847520196CB17725A840A1223ECB /* RCNConstants3P.m in Sources */,
+				40510FF5C08D252A631CD0E354769589 /* RCNDevice.m in Sources */,
+				5EAFDBE90D6DEC3E0AE187528E52328F /* RCNPersonalization.m in Sources */,
+				878BA48D5937030BB4AE0D38AC3D1E72 /* RCNUserDefaultsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EAC40D547689AC92DBC8A26F9DEF643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FirebaseABTesting;
+			targetProxy = 886ED6203ADEAD44E9D2434E46FEB053 /* PBXContainerItemProxy */;
+		};
+		120C8BAA3B7C6CFFEB4D66862EF75D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FirebaseCore;
+			targetProxy = 5BB795E4D8FF49AFC82321CBE776465A /* PBXContainerItemProxy */;
+		};
+		4A11D619BAF3DA48D564E5683DDC40D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			targetProxy = 5B5EF19F1450659E85C0CB2A8398E1C9 /* PBXContainerItemProxy */;
+		};
+		8981436D7A6D76563F49AD382F4CFF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FirebaseInstallations;
+			targetProxy = 820DD85FF3459642995E6A783583ABAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30DCF308BA9EE447CF9440C3649E1646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7BE1A4F9531B7564CCA14E095FCFE7 /* FirebaseRemoteConfig.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/FirebaseRemoteConfig/FirebaseRemoteConfig.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FirebaseRemoteConfig;
+				PRODUCT_NAME = FirebaseRemoteConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		477351AC333763748941E8ED2174F61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65D57711096ABB3561951839D8F691CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C2B18DC41F71FEBC232DDC77DE3E469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B488B1BB43AE299014C0D42CD5ED00F /* FirebaseRemoteConfig.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/FirebaseRemoteConfig/FirebaseRemoteConfig.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FirebaseRemoteConfig;
+				PRODUCT_NAME = FirebaseRemoteConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0710A74E0557C83AF79D240C3D13B1A8 /* Build configuration list for PBXProject "FirebaseRemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D57711096ABB3561951839D8F691CA /* Debug */,
+				477351AC333763748941E8ED2174F61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC29C8D276E0EAC85F987C7567970B9 /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DCF308BA9EE447CF9440C3649E1646 /* Debug */,
+				7C2B18DC41F71FEBC232DDC77DE3E469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E4A644B39D75B6BFAC633F13B15702F /* Project object */;
+}

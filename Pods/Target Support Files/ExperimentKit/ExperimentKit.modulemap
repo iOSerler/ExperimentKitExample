@@ -1,0 +1,6 @@
+module ExperimentKit {
+  umbrella header "ExperimentKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
